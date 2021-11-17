@@ -3,7 +3,7 @@ title: "Zenn+GitHub連携 環境構築手順"
 emoji: "🦔"
 type: "idea" # tech: 技術記事 / idea: アイデア
 topics: ["Zenn", "GitHub", "環境構築"]
-published: false
+published: true
 ---
 
 # 概要
