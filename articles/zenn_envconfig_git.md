@@ -59,7 +59,16 @@ OS  : Windows10 Pro 20H2
     git commit -am 'コメント'
     git push
     ```
+    :::message alert
+    GitHubのリポジトリにアクセス時に「remote: Support for password authentication was removed on August 13, 2021.」が発生する場合
+    https://note.kiriukun.com/entry/20210904-github-password-authentication-was-removed
+    :::
+    :::message alert
+    GitHubのリポジトリにアクセス時に「AggregateException」が発生する場合
+    https://qiita.com/horsewin/items/fdf2fb9092b4092fcc34
+    :::
+
 - GitHub Desktop
-  コマンド操作はできる限り避けたい人はGUIツールも提供されています。
+  コマンド操作はできる限り避けたい人はGUIツールも提供されています。  
   [GitHub Desktopのインストールから使い方まで徹底解説！](https://crestadesign.org/github-desktop/)を参考にしてみてください
 
