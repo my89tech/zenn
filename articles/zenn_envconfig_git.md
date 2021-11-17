@@ -23,7 +23,7 @@ OS  : Windows10 Pro 20H2
     公開設定は記事を管理するリポジトリであればPublic、本を管理するリポジトリはPrivateを設定する
     :::
 3. QuickSetupに表示されるリポジトリのURLリンクを記録しておく
-  ![リポジトリのURL](/images/zenn_envconfig_git/RepogitoryURL.PNG)
+  ![リポジトリのURL](/images/zenn_envconfig_git/RepogitoryURL.png)
     :::message
    リポジトリのQickSetupや既存のリポジトリを利用するためのコマンドラインが表示されるが、ここでは何もする必要はない。 
     :::
