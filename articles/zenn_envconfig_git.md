@@ -67,7 +67,10 @@ OS  : Windows10 Pro 20H2
     GitHubのリポジトリにアクセス時に「AggregateException」が発生する場合
     https://qiita.com/horsewin/items/fdf2fb9092b4092fcc34
     :::
-
+    :::message alert
+    ローカルのプレビューでは画像が表示されるが、本番環境では画像が表示されない場合  
+    本番環境では、ファイル拡張子の大文字小文字を区別しているため、拡張子が小文字になっているか確認してください
+    :::
 - GitHub Desktop
   コマンド操作はできる限り避けたい人はGUIツールも提供されています。  
   [GitHub Desktopのインストールから使い方まで徹底解説！](https://crestadesign.org/github-desktop/)を参考にしてみてください
