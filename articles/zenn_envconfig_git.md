@@ -12,7 +12,9 @@ GitHub連携の記事は色々あるのですが、Gitを使用したことな�
 記述不足だと感じた点を備忘録としてまとめておきます。  
 
 # 動作環境
-OS  : Windows10 Pro 20H2
+OS      : Windows10 Pro 20H2
+Node.js : 16.13.0
+Git     : 2.34.0.windows.1
 
 # GitHubのインストール
 公式手順の[GitHubリポジトリでZennのコンテンツを管理する](https://zenn.dev/zenn/articles/connect-to-github)に記載のない内容を捕捉します。  
@@ -29,6 +31,7 @@ OS  : Windows10 Pro 20H2
     :::
 
 4. [ダッシュボードから連携する](https://zenn.dev/zenn/articles/connect-to-github#2.-%E3%83%80%E3%83%83%E3%82%B7%E3%83%A5%E3%83%9C%E3%83%BC%E3%83%89%E3%81%8B%E3%82%89%E9%80%A3%E6%90%BA%E3%81%99%E3%82%8B)
+
 
 # Gitのインストール
 1. [【Windows】Gitの環境を構築しよう!](https://prog-8.com/docs/git-env-win)の2章まで実施する
@@ -71,6 +74,12 @@ OS  : Windows10 Pro 20H2
     ローカルのプレビューでは画像が表示されるが、本番環境では画像が表示されない場合  
     本番環境では、ファイル拡張子の大文字小文字を区別しているため、拡張子が小文字になっているか確認してください
     :::
+    :::message
+    GitHubへのPushはできるが記事が更新されない
+    ダッシュボードのDeploysから手動デプロイを実行してください。
+    また、この際デプロイ対象のブランチとGitHubのブランチが一致するか確認してください。
+    :::
+
 - GitHub Desktop
   コマンド操作はできる限り避けたい人はGUIツールも提供されています。  
   [GitHub Desktopのインストールから使い方まで徹底解説！](https://crestadesign.org/github-desktop/)を参考にしてみてください
