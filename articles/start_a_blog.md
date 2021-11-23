@@ -3,7 +3,7 @@ title: "Zenn 始めました"
 emoji: "🐶"
 type: "idea" # tech: 技術記事 / idea: アイデア
 topics: [メモ]
-published: false
+published: true
 ---
 
 # 概要
